@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Raidbuff Alignment FFXIV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css">
+    <script src="main.js"></script>
+    </head>
+<body>
+    <style>
+        .vis-item {
+            border-color: lightgrey;
+            background-color: lightgrey;
+        }
+        .vis-item-content{
+            display: none;
+        }
+    </style>
+    <div class="container">
+        <div class="row">
+            <h1>FFXIV Raidbuff Alignment Chart</h1>
+        </div>
+        <div class="row">
+            <button class="btn black" id="btnToggleSettings">Show/Hide Settings</button>
+            <btn class="btn black" id="btnGenerate">Generate Timeline</btn>
+            <p>Use alt+scroll (or pinch on mobile) to zoom</p>
+        </div>
+        <div class="row" id="settings" hidden>
+            <div class="col s12">
+                <h3>Settings</h3>
+                <h4>Abilities</h4>
+                <btn class="btn black" id="btnSettingsReset">Reset</btn>
+            </div>
+        </div>
+    </div>
+    <div id="timeline"></div>
+</body>
+
+</html>
