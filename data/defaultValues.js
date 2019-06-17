@@ -6,7 +6,12 @@ const buffs = [
         "duration": 10.0,
         "cooldown": 60.0,
         "firstCast": 10.62,
-        "imgUrl": ""
+        "imgUrl": "",
+        "job": {
+            "name": "Ninja",
+            "shortName": "NIN",
+            "imgUrl": ""
+        }
     },
     {
         "id": 2,
@@ -15,7 +20,12 @@ const buffs = [
         "duration": 20.0,
         "cooldown": 120.0,
         "firstCast": 2.2,
-        "imgUrl": ""
+        "imgUrl": "",
+        "job": {
+            "name": "Dragoon",
+            "shortName": "DRG",
+            "imgUrl": ""
+        }
     },
     {
         "id": 3,
@@ -24,7 +34,12 @@ const buffs = [
         "duration": 20.0,
         "cooldown": 180.0,
         "firstCast": 3.8,
-        "imgUrl": ""
+        "imgUrl": "",
+        "job": {
+            "name": "Dragoon",
+            "shortName": "DRG",
+            "imgUrl": ""
+        }
     },
     {
         "id": 4,
@@ -33,7 +48,12 @@ const buffs = [
         "duration": 15.0,
         "cooldown": 90.0,
         "firstCast": 9.0,
-        "imgUrl": ""
+        "imgUrl": "",
+        "job": {
+            "name": "Monk",
+            "shortName": "MNK",
+            "imgUrl": ""
+        }
     },
     {
         "id": 5,
@@ -42,7 +62,12 @@ const buffs = [
         "duration": 20.0,
         "cooldown": 180.0,
         "firstCast": 3.0,
-        "imgUrl": ""
+        "imgUrl": "",
+        "job": {
+            "name": "Bard",
+            "shortName": "BRD",
+            "imgUrl": ""
+        }
     },
     {
         "id": 6,
@@ -51,7 +76,12 @@ const buffs = [
         "duration": 15.0,
         "cooldown": 120.0,
         "firstCast": 4.2,
-        "imgUrl": ""
+        "imgUrl": "",
+        "job": {
+            "name": "Dancer",
+            "shortName": "DNC",
+            "imgUrl": ""
+        }
     },
     {
         "id": 7,
@@ -60,7 +90,12 @@ const buffs = [
         "duration": 15.0,
         "cooldown": 120.0,
         "firstCast": 10.4,
-        "imgUrl": ""
+        "imgUrl": "",
+        "job": {
+            "name": "Dancer",
+            "shortName": "DNC",
+            "imgUrl": ""
+        }
     },
     {
         "id": 8,
@@ -69,7 +104,12 @@ const buffs = [
         "duration": 20.0,
         "cooldown": 120.0,
         "firstCast": 11.8,
-        "imgUrl": ""
+        "imgUrl": "",
+        "job": {
+            "name": "Red Mage",
+            "shortName": "RDM",
+            "imgUrl": ""
+        }
     },
     {
         "id": 9,
@@ -78,7 +118,12 @@ const buffs = [
         "duration": 15.0,
         "cooldown": 180.0,
         "firstCast": 7.0,
-        "imgUrl": ""
+        "imgUrl": "",
+        "job": {
+            "name": "Summoner",
+            "shortName": "SMN",
+            "imgUrl": ""
+        }
     },
     {
         "id": 10,
@@ -87,57 +132,11 @@ const buffs = [
         "duration": 15.0,
         "cooldown": 120.0,
         "firstCast": 4.5,
-        "imgUrl": ""
-    },
-];
-
-const jobs = [
-    {
-        "id": 1,
-        "name": "Ninja",
-        "shortName": "NIN",
-        "imgUrl": ""
-    },
-    {
-        "id": 2,
-        "name": "Dragoon",
-        "shortName": "DRG",
-        "imgUrl": ""
-    },
-    {
-        "id": 3,
-        "name": "Monk",
-        "shortName": "MNK",
-        "imgUrl": ""
-    },
-    {
-        "id": 4,
-        "name": "Bard",
-        "shortName": "BRD",
-        "imgUrl": ""
-    },
-    {
-        "id": 5,
-        "name": "Dancer",
-        "shortName": "DNC",
-        "imgUrl": ""
-    },
-    {
-        "id": 6,
-        "name": "Red Mage",
-        "shortName": "RDM",
-        "imgUrl": ""
-    },
-    {
-        "id": 7,
-        "name": "Summoner",
-        "shortName": "SMN",
-        "imgUrl": ""
-    },
-    {
-        "id": 8,
-        "name": "Scholar",
-        "shortName": "SCH",
-        "imgUrl": ""
+        "imgUrl": "",
+        "job": {
+            "name": "Scholar",
+            "shortName": "SCH",
+            "imgUrl": ""
+        }
     },
 ];
